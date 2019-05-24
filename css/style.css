@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap");
+body { font-family: 'Montserrat', sans-serif; }
+
+.sprite { background: url(../images/sprite.png) no-repeat; }
+
+header { background: url(../images/bg_topo.png) no-repeat center; }
+
+header .logo { padding-top: 24px; }
+
+header .navbar { padding-top: 8px; }
+
+header .navbar li a { font-weight: 500; font-size: 15px; letter-spacing: 0.06em; color: #646464; text-transform: uppercase; }
+
+header .carret { background-position: -4px -4px; width: 16px; height: 9px; display: inline-flex; margin-left: 8px; }
+
+.carousel-item { position: relative; }
+
+.carousel-item img { left: 50%; position: relative; transform: translateX(-50%); }
+
+.carousel-item .texto_slider { padding-left: 62px; position: absolute; top: 35%; }
+
+.carousel-item h2, .carousel-item h3, .carousel-item h4 { text-transform: uppercase; color: #FFF; }
+
+.carousel-item h3 { font-weight: 300; font-size: 16px; margin-bottom: 3px; }
+
+.carousel-item h2 { font-weight: 700; font-size: 60px; margin-bottom: 3px; }
+
+.carousel-item h4 { font-weight: 500; font-size: 37px; line-height: 38px; text-align: right; }
